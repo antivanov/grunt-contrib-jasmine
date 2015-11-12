@@ -15,7 +15,7 @@ module.exports = function(grunt) {
       path = require('path');
 
   // npm lib
-  var phantomjs = require('grunt-lib-phantomjs').init(grunt),
+  var phantomjs = require('grunt-lib-phantomjs2-unofficial').init(grunt),
       chalk = require('chalk'),
       _ = require('lodash');
 
