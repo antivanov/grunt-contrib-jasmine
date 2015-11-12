@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-jasmine-phantomjs2-unofficial",
   "description": "Run jasmine specs headlessly through PhantomJS. Unofficial fork that works with PhantomJS 2.0.0",
-  "version": "0.9.2",
+  "version": "0.9.2.1",
   "author": {
     "name": "Grunt Team",
     "url": "http://gruntjs.com/"
