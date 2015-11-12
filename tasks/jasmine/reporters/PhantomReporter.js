@@ -80,6 +80,9 @@ if (window._phantom) {
 
     var cache = [], keyMap = [];
 
+    //Optimizing the case of stringifying coverage data
+    if (obj[0] && obj[0] === 'jasmine.coverage') {return JSON.stringify(obj);}
+
     var string = JSON.stringify(obj, function(key, value) {
       // Let json stringify falsy values
       if (!value) {
